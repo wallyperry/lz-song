@@ -1,0 +1,24 @@
+{
+    "music": "https://testingcf.jsdelivr.net/gh/wallyperry/lz-song@main/audio/music.json",
+    "splash": {
+        "img": "",
+        "url": ""
+    },
+    "banner": [
+        {
+            "title": "萌通加速",
+            "img": "https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/image/202401/mt/img/banner_moetor.jpg",
+            "url": "http://xn--gr1aw0w.com"
+        },
+        {
+            "title": "萌通加速",
+            "img": "https://showyu-tvapp.oss-cn-beijing.aliyuncs.com/image/202401/mt/img/banner_moetor.jpg",
+            "url": "http://xn--gr1aw0w.com"
+        }
+    ],
+    "drawer": {
+        "img": "https://testingcf.jsdelivr.net/gh/wallyperry/lz-song-02@main/cover.webp",
+        "title": "",
+        "info": "我想和你在一起，直到我不爱你。"
+    }
+}
