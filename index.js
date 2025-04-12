@@ -27,7 +27,7 @@ fs.readdirSync(baseDir, { withFileTypes: true }).forEach(dirent => {
   for (const ext of coverExts) {
     const coverPath = path.join(albumPath, `cover.${ext}`);
     if (fs.existsSync(coverPath)) {
-      cover = `https://testingcf.jsdelivr.net/gh/wallyperry/lz-song-${albumId}@main/cover.${ext}`;
+      cover = `https://gh-proxy.com/raw.githubusercontent.com/wallyperry/lz-song-${albumId}/main/cover.${ext}`;
       break;
     }
   }
@@ -52,13 +52,13 @@ fs.readdirSync(baseDir, { withFileTypes: true }).forEach(dirent => {
       const songName = file.replace(/\.(mp3|m4a|wav|flac)$/i, '');
       const lrcFile = path.join(albumPath, songName + ".lrc");
       const lrcUrl = fs.existsSync(lrcFile)
-        ? `https://testingcf.jsdelivr.net/gh/wallyperry/lz-song-${albumId}@main/${encodeURIComponent(songName)}.lrc`
+        ? `https://gh-proxy.com/raw.githubusercontent.com/wallyperry/lz-song-${albumId}/main/${encodeURIComponent(songName)}.lrc`
         : "";
 
       albumData.list.push({
         name: songName,
         artist: "李志",
-        url: `https://testingcf.jsdelivr.net/gh/wallyperry/lz-song-${albumId}@main/${encodeURIComponent(file)}`,
+        url: `https://gh-proxy.com/raw.githubusercontent.com/wallyperry/lz-song-${albumId}/main/${encodeURIComponent(file)}`,
         lrc: lrcUrl,
         state: 1
       });
