@@ -1,5 +1,5 @@
 {
-    "music": "https://testingcf.jsdelivr.net/gh/wallyperry/lz-song@main/audio/music.json",
+    "music": "https://gh-proxy.com/raw.githubusercontent.com/wallyperry/lz-song/main/api/music.json",
     "splash": {
         "img": "",
         "url": ""
